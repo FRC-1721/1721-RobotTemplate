@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+robotpy = {extras = ["rev", "ctre", "commands2"], version = "2023.2.1"}
+wpilib = {extras = ["all"], version = "2023.2.1.0"}
+pyyaml = "6.0"
+black = "*"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.10"
+
+[pipenv]
+allow_prereleases = true
